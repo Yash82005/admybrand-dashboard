@@ -1,7 +1,12 @@
 "use client";
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
-export default function OverviewChart({ data }: { data: any[] }) {
+interface OverviewChartProps {
+  data: { date: string; value: number }[];
+}
+
+export default function OverviewChart({ data }: OverviewChartProps) {
+
   return (
     <ResponsiveContainer width="100%" height={250}>
       <LineChart data={data}>

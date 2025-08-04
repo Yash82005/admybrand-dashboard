@@ -1,5 +1,5 @@
 // app/profile/page.tsx
-import Image from "next/image"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -10,8 +10,8 @@ export default function ProfilePage() {
 
       <Card className="max-w-md mx-auto">
         <CardContent className="pt-6 flex flex-col items-center space-y-4">
-          <Image
-            src="https://avatars.githubusercontent.com/u/583231?v=4" // 👈 GitHub's Octocat avatar
+          <img
+            src="https://avatars.githubusercontent.com/u/583231?v=4" 
             alt="Profile Picture"
             width={120}
             height={120}

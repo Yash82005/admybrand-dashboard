@@ -1,7 +1,12 @@
 "use client";
 import { Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
-export default function DonutChart({ data }: { data: any[] }) {
+interface DonutChartProps {
+  data: { name: string; value: number }[];
+}
+
+export default function DonutChart({ data }: DonutChartProps) {
+
   return (
     <ResponsiveContainer width="100%" height={250}>
       <PieChart>

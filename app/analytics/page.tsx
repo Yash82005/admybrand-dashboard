@@ -5,14 +5,14 @@ export default function AnalyticsPage() {
     <div className="p-6 space-y-6">
       <h1 className="text-3xl font-bold tracking-tight">Analytics</h1>
       <p className="text-muted-foreground max-w-2xl">
-        Welcome to the Analytics section. Here you'll find insights and key metrics about your ad campaigns, performance trends, and audience engagement.
+        Welcome to the Analytics section. Here you&apos;ll find insights and key metrics about your ad campaigns, performance trends, and audience engagement.
       </p>
 
       <Card>
         <CardContent className="p-6 space-y-4">
           <h2 className="text-xl font-semibold">Overview</h2>
           <p className="text-sm text-muted-foreground">
-            This section will include various analytics like conversion rate, CTR, impressions, and more. We're working hard to bring this live!
+            This section will include various analytics like conversion rate, CTR, impressions, and more. We&apos;re working hard to bring this live!
           </p>
         </CardContent>
       </Card>

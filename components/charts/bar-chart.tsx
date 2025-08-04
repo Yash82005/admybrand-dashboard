@@ -2,7 +2,12 @@
 
 import { Bar, BarChart as BChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
-export default function BarChart({ data }: { data: any[] }) {
+interface BarChartProps {
+  data: { name: string; value: number }[];
+}
+
+export default function BarChart({ data }: BarChartProps) {
+
   return (
     <ResponsiveContainer width="100%" height={300}>
       <BChart data={data}>
